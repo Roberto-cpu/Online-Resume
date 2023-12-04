@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Roberto Garzone - Online CV</title>
+        <link rel="stylesheet" href="static/css/index.css" />
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css" />
+    </head>
+    <body>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+        <script type="text/javascript" src="dynamic/js/index.js"></script>
+        <header>
+            <div class="navbar-fixed hide-on-large-only">
+                <nav class="grey darken-3 z-depth-3">
+                    <div class="nav-wrapper">
+                        <a href="#" data-activates="cv-nav" class="button-collapse">
+                            <i class="material-icons">menu</i>
+                        </a>
+                        <a href="#" class="brand-logo center">Online CV</a>
+                    </div>
+                </nav>
+            </div>
+            <ul id="cv-nav" class="side-nav fixed center-align grey darken-3 z-depth-3">
+                <li class="cv-title light-green"><a href="#fullname" class="cv-spclink waves-effect waves-light">Roberto Garzone</a></li>
+                <li class="cv-title"><a href="#objective" class="light-green-text waves-effect waves-light">Career Objective</a></li>
+                <li class="cv-title"><a href="#tskill" class="light-green-text waves-effect waves-light">Hard Skills</a></li>
+                <li class="cv-title"><a href="#pskill" class="light-green-text waves-effect waves-light">Soft Skills</a></li>
+                <li class="cv-title"><a href="#experience" class="light-green-text waves-effect waves-light">Experience</a></li>
+                <li class="cv-title"><a href="#education" class="light-green-text waves-effect waves-light">Education</a></li>
+                <li class="cv-title"><a href="#certificate" class="light-green-text waves-effect waves-light">Certificate</a></li>
+                <li class="cv-title"><a href="#project" class="light-green-text waves-effect waves-light">Prtojects</a></li>
+                <li class="cv-title white"><a href="#<cv-name>" class="light-green-text text-darken-4 waves-effect waves-green" download="Roberto Garzone - CV.pdf">Download CV</a></li>
+                <li class="cv-title white"><a href="#!" class="light-green-text text-darken-4 waves-effect waves-green" onclick="print_doc('#cv-printable')">Print CV</a></li>
+            </ul>
+        </header>
+        <main class="cv-nonprintable">
+            <div class="cv-wrapper container">
+                <div class="card z-depth-4 center grey lighten-3">
+                    <div class="divider cv-topborder light-green"></div>
+                    <div id="fullname" class="row scrollspy">
+                        <div class="card-content cv-header">
+                            <div class="col s6 l3 offset-s3">
+                                <div class="cv-photowrapper white z-depth-2">
+                                    <img src="static/images/index/cv_profile.png" alt="roberto-garzone" class="responsive-img" />
+                                </div>
+                            </div>
+                            <div class="col s12 l9 cv-pinfogroup">
+                                <div><span class="card-title cv-fullname cv-title">Roberto Garzone</span></div>
+                                <div class="cv-personalinfo">
+                                    <div class="grey-text text-darken-2 col s12 l12"><i class="material-icons tiny yellow-text text-darken-4">work</i> CYBER SECURITY ANALYST, 26 yrs old</div>
+                                    <div class="grey-text text-darken-2 col s12 l12"><i class="material-icons tiny pink-text">location_on</i> Rome, RM</div>
+                                    <div class="grey-text text-darken-2 col s12 l12"><i class="material-icons tiny indigo-text">stay_primary_portrait</i> (+39) 345 502-3714</div>
+                                    <div class="grey-text text-darken-2 col s12 l12"><i class="material-icons tiny green-text">email</i> <a href="mailto:robertogarzone0@gmail.com">robertogarzone0@gmail.com</a></div>
+                                    <div class="grey-text text-darken-2 col s12 l12"><i class="material-icons tiny red-text">code</i> <a href="https://github.com/Roberto-cpu" target="_blank">GitHub</a><span style="display:inline-block; width:50px;"></span> <i class="material-icons tiny blue-text">public</i> <a href="https://www.linkedin.com/in/roberto-garzone-b4bb3318b/" target="_blank">LinkedIn</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider grey"></div>
+                    <div class="card-content cv-body white center">
+                        <div id="objective" class="row scrollspy">
+                            <div class="cv-title text-right col s12 l3">Career Objective</div>
+                            <div class="text-left col s12 l9">
+                                <div class="col s12 l12 cv-co">
+                                    To further my knowledge on software and web application development techniques and life cycles, be able to contribute and work on a meaningful and purposeful project, and be a part of a productive team with similar aspirations.
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tskill" class="row scrollspy">
+                            <div class="cv-title text-right col s12 l3">Hard Skills</div>
+                            <div class="text-left col s12 l9">
+                                <div class="col s12 l12">
+                                    <div class="cv-subtitle light-green-text text-darken-3">Programming Languages</div>
+                                    <div class="col s12 l6">
+                                        <span class="cv-listtitle">Software Development</span>
+                                        <ul class="cv-list browser-default">
+                                            <li>Java</li>
+                                            <li>C#</li>
+                                            <li>C</li>
+                                            <li>C++</li>
+                                            <li>Python</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col s12 l6">
+                                        <span class="cv-listtitle">Web</span>
+                                        <ul class="cv-list browser-default">
+                                            <li>Typescript & Javascript</li>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>ASP.Net</li>
+                                            <li>PHP</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col s12 l6">
+                                        <span class="cv-listtitle">Other</span>
+                                        <ul class="cv-list browser-default">
+                                            <li>Assembler</li>
+                                            <li>Matlab</li>
+                                            <li>Kotlin</li>
+                                            <li>Swift</li>
+                                            <li>Latex</li>
+                                            <li>SQL</li>
+                                            
+                                        </ul>
+                                        <span class="cv-listtitle">Database</span>
+                                        <ul class="cv-list browser-default">
+                                            <li>Microsoft SQL Server Management Studio 18</li>
+                                            <li>Firebase</li>
+                                            <li>MySQL</li>
+                                            <li>PostgreSQL</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col s12 l12">
+                                    <div class="cv-subtitle light-green-text text-darken-3">Technologies</div>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle">Services</span>
+                                        <ul class="cv-list browser-default">
+                                            <li>Web Services</li>
+                                            <li>RESTful Services</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle">Framework</span>
+                                        <ul class="cv-list browser-default">
+                                            <li>.Net Core</li>
+                                            <li>Entity Framework Core</li>
+                                            <li>Entity Framework 6.0</li>
+                                            <li>NIST Cyber Security Framework <span class="cv-spctext grey-text">v1.1 - v2.0</span></li>
+                                            <li>Angular 8+</li>
+                                            <li>Angular Material</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle">Mobile</span>
+                                        <ul class="cv-list browser-default">
+                                            <li>SwitUI</li>
+                                            <li>Android SDK</li>
+                                            <li>UI Kit</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle">Operative Systems</span>
+                                        <ul class="cv-list browser-default">
+                                            <li>Windows <span class="cv-spctext grey-text">7 - 10 -11</span></li>
+                                            <li>Linux <span class="cv-spctext grey-text">Ubuntu - REMnux - Kali Linux - Kali Purple</span></li>
+                                            <li>Windows Server <span class="cv-spctext grey-text">2019</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="pskill" class="row scrollspy">
+                            <div class="cv-title text-right col s12 l3">Soft Skills</div>
+                            <div class="col s12 l12">
+                                <ul class="cv-list text-left browser-default">
+                                    <li>Interaction with the working group, adopting methods of communication and behaviour that can ensure the achievement of a common result</li>
+                                    <li>Assume behaviors of functional strategies to an effective and efficient execution of tasks</li>
+                                    <li>Assume the leadership role in the planning and management of activities, in order to guide the working team towards achieving the goal</li>
+                                    <li>Solve problems related to the technical scope of reference using mathematical concepts, methods and tools</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="experience" class="row scrollspy">
+                            <div class="cv-title text-right col s12 l3">Experience</div>
+                            <div class="text-left col s12 l9">
+                                <div class="col s12 l12">
+                                    <div>
+                                        <span class="cv-subtitle light-green-text text-darken-3">Cyber Security Analyst</span>
+                                        <span class="new badge light-green" data-badge-caption="2022 - Present"></span>
+                                    </div>
+                                    <div>
+                                        <span class="cv-sub grey-text">Donexit Srl, Rome, RM</span>
+                                    </div>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle">Malware Lab</span>
+                                        <ul class="cv-list browser-default">
+                                            <li>
+                                                Analysis of newest version of malware, or 0-days, in order to understand their behavior and objective.<br />
+                                                Report developing to help users to defence thier systems against them.                                             
+                                                <ul class="cv-list browser-default">
+                                                    <li><b>OSINT</b> - Countinuous research of new samples, cyber attacks or known malware families' variations to analyze </li>
+                                                    <li><b>IOC GATHERING</b> - The IOCs found during the OSINT activity are saved into a DB</li>
+                                                    <li><b>REPORT</b> - After the analysis of a malware a report will generated, in order to allow others to take knowledge about the malware and its behavior when it's executed</li>
+                                                    <li><b>TOOLS's DEVELOPMENT</b> - Development of tools useful to simplify the malware analysis activity</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <span class="cv-listtitle">Penetration Test</span>
+                                        <ul class="cv-list browser-default">
+                                            <li>
+                                                By simulating actual cyberattacks, one can assess and evaluate the security of computer systems, networks, and applications. 
+                                                The goal is to find gaps and vulnerabilities so that businesses can fortify their defenses against malevolent cybercriminals.
+                                                All the vulnerabilities found are written in a report called VA - Vulnerability Assessment.          
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col s12 l12">
+                                    <div>
+                                        <span class="cv-subtitle light-green-text text-darken-3">Active Directory Administrator</span>
+                                        <span class="new badge light-green" data-badge-caption="Mar 2021 - Apr 2021"></span>
+                                    </div>
+                                    <div>
+                                        <span class="cv-sub grey-text">INTELLIGENTIA Srl, Benevento, BN</span>
+                                    </div>
+                                    <div class="col s12 l12">
+                                        <span class="cv-list browser-default">
+                                            As a dedicated professional, I served as the Manager of a Windows domain, where my responsibilities included orchestrating the seamless integration of diverse devices through a centralized domain controller.
+                                            Leveraging the robust capabilities of Windows Server 2019, I meticulously designed and implemented a secure and monitored environment.
+                                            My role encompassed strategic planning, deployment, and ongoing management of the Windows domain infrastructure, with a focus on enhancing security protocols and implementing effective monitoring mechanisms. 
+                                            Through my tenure, I consistently upheld the highest standards of system administration, ensuring the reliability, scalability, and security of the domain infrastructure to meet the organization's operational objectives.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="education" class="row scrollspy">
+                            <div class="cv-title text-right col s12 l3">Education</div>
+                            <div class="text-left col s12 l9">
+                                <div class="col s12 l12">
+                                    <span class="cv-subtitle light-green-text text-darken-3">Sapienza Univeristy of Rome </span><span class="cv-spctext grey-text">Rome, RM, Italy</span>
+                                    <span class="new badge light-green" data-badge-caption="2021 - Present"></span>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle">Master Degree in Cybersecurity</span>
+                                        <ul class="cv-list browser-default"><li></li></ul>
+                                    </div>
+                                </div>
+                                <div class="col s12 l12">
+                                    <span class="cv-subtitle light-green-text text-darken-3">Università degli Studi del Sannio </span><span class="cv-spctext grey-text">Benevento, BN, Italy</span>
+                                    <span class="new badge light-green" data-badge-caption="2015 - 2021"></span>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle">Degree in Computer Engeneering</span>
+                                        <ul class="cv-list">
+                                            <li>Grade: 92/110L</li>
+                                            <li>Thesis: <a href="static/documents/ThreeYearsThesis.pdf" class="black-text pe-auto" target="_blank">Study of Poisoning Attacks on Classifiers for Malware Detection Based on Machine Learning</a> <span class="cv-spctext grey-text">Advisor: prof. Corrado Aaron Visaggio</span></li>
+                                            <li>
+                                                <a href="https://github.com/Roberto-cpu/AI-detection-for-poisoning-attack/upload/main" class="black-text" target="_blank">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col s12 l12">
+                                    <span class="cv-subtitle light-green-text text-darken-3">Scuola La Tecnica </span><span class="cv-spctext grey-text">Benevento, BN, Italy</span>
+                                    <span class="new badge light-green" data-badge-caption="2020 - 2021"></span>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle">Techniques for Systems and Networks security, IT Security Specialist</span>
+                                    </div>
+                                    <div class="col s12 l12">
+                                        <ul class="cv-list browser-default">
+                                            <li>Implementation of cybersecurity policies</li>
+                                            <li>Verification of security systems by intervening in case of criticality</li>
+                                            <li>Design and implementation of solutions for the security of hardware and software systems</li>
+                                            <li>Manament of a Windows domain through a Domain Controller, mouting Windows Server 2019</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col s12 l12">
+                                    <span class="cv-subtitle light-green-text text-darken-3">Cisco Networking Academy </span><span class="cv-spctext grey-text">Benevento, BN, Italy</span>
+                                    <span class="new badge light-green" data-badge-caption="2020 - 2021"></span>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle" style="cursor: pointer"  onclick="window.open('static/images/index/ROBERTOGARZONE-IFTS_IIIA_ENSAv7-certificate - Cisco.pdf', 'CCNAv7 - 3', 'left=200,top=100,width=700,height=600')">CCNAv7: Networking, Security and Automation</span> <br /> 
+                                        <span class="cv-list browser-default">Theory: 99/100 &nbsp; Practice: 90/100</span><br />
+                                        <span class="cv-spctext grey-text" style="cursor: pointer" onclick="window.open('static/images/index/ROBERTOGARZONE-IFTS_IIIA_ENSAv7-letter.pdf', 'CCNav7 - 3 - Letter', 'left=200,top=100,width=700,height=600')">Letter of Merit</span>
+                                    </div>
+                                </div>
+                                <div class="col s12 l12">
+                                    <span class="cv-subtitle light-green-text text-darken-3">Cisco Networking Academy </span><span class="cv-spctext grey-text">Benevento, BN, Italy</span>
+                                    <span class="new badge light-green" data-badge-caption="2020"></span>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle" style="cursor: pointer" onclick="window.open('static/images/index/ROBERTOGARZONE-IFTS_IIIA_SRWv7-certificate - Cisco.pdf', 'CCNAv7 - 2', 'left=200,top=100,width=700,height=600')">CCNAv7: Switching, Routing and Wireless Essentials</span> <br />
+                                        <span class="cv-list browser-default">Theory: 95.7/100 &nbsp; Practice: 90/100</span><br />
+                                        <span class="cv-spctext grey-text" style="cursor: pointer" onclick="window.open('static/images/index/ROBERTOGARZONE-IFTS_IIIA_SRWv7-letter.pdf', 'CCNAv7 - 2 - Letter', 'left=200,top=100,width=700,height=600')">Letter of Merit</span>
+                                    </div>
+                                </div>
+                                <div class="col s12 l12">
+                                    <span class="cv-subtitle light-green-text text-darken-3">Cisco Networking Academy </span><span class="cv-spctext grey-text">Benevento, BN, Italy</span>
+                                    <span class="new badge light-green" data-badge-caption="2020"></span>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle" style="cursor: pointer" onclick="window.open('static/images/index/ROBERTOGARZONE-IFTS-IT Security-certificate - Cisco.pdf', 'CCNAv7 - 1', 'left=200,top=100,width=700,height=600')">CCNAv7: Introduction to Networks</span> <br />
+                                        <span class="cv-list browser-default">Theory: 97.9/100 &nbsp; Practice: 84.7/100</span><br />
+                                        <span class="cv-spctext grey-text" style="cursor: pointer" onclick="window.open('static/images/index/ROBERTOGARZONE-IFTS-IT Security-letter.pdf', 'CCNAv7 - 1 - Letter', 'left=200,top=100,width=700,height=600')">Letter of Merit</span>
+                                    </div>
+                                </div>
+                                <div class="col s12 l12">
+                                    <span class="cv-subtitle light-green-text text-darken-3">ESOL </span><span class="cv-spctext grey-text">Montesarchio, BN, Italy</span>
+                                    <span class="new badge light-green" data-badge-caption="2020"></span>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle"><a href="static/images/index/B2LevelESOL.png" class="black-text" target="_blank">B2 English Certification</a></span>
+                                        <ul class="cv-list">
+                                            <li>Use of English: <progress value="17" max="20"></progress></li>
+                                            <li>Reading: <progress value="18" max="20"></progress></li>
+                                            <li>Writing: <progress value="16" max="20"></progress></li>
+                                            <li>Listening: <progress value="16" max="20"></progress></li>
+                                            <li>Speaking: <progress value="13" max="20"></progress></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="certificate" class="row scrollspy">
+                            <div class="cv-title text-right col s12 l3">Certificates</div>
+                            <div class="text-left col s12 l9">
+                                <div class="col s12 l12">
+                                    <span class="cv-subtitle light-green-text text-darken-3">EC-Council</span>
+                                    <span class="new badge light-green" data-badge-caption="2023"></span>
+                                    <div class="col s12 l12">
+                                        <span class="cv-list browser-default" style="cursor: pointer" onclick="window.open('static/images/index/EC_Coucil_C++_for_PT.png', 'EC-Coucil C++ for PT.png', 'left=200,top=100,width=700,height=600')">EC-Coucil C++ for PT</span>
+                                    </div>
+                                </div>
+                                <div class="col s12 l12">
+                                    <span class="cv-subtitle light-green-text text-darken-3">SoloLearn</span>
+                                    <span class="new badge light-green" data-badge-caption="2021"></span>
+                                    <div class="col s12 l12">
+                                        <span class="cv-list browser-default" style="cursor: pointer" onclick="window.open('static/images/index/HTML-SoloLearn.png', 'HTML', 'left=200,top=100,width=700,height=600')">HTML</span><br />
+                                        <span class="cv-list browser-default" style="cursor: pointer" onclick="window.open('static/images/index/Javascript-SoloLearn.png', 'Javascript', 'left=200,top=100,width=700,height=600')">Javascript</span><br />
+                                        <span class="cv-list browser-default" style="cursor: pointer" onclick="window.open('static/images/index/PHP-SoloLearn.png', 'PHP', 'left=200,top=100,width=700,height=600')">PHP</span>
+                                    </div>
+                                </div>
+                                <div class="col s12 l12">
+                                    <span class="cv-subtitle light-green-text text-darken-3">Università degli Studi del Sannio </span><span class="cv-spctext grey-text">Benevento, BN, Italy</span>
+                                    <span class="new badge light-green" data-badge-caption="2019 - 2020"></span>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle" style="cursor: pointer" onclick="window.open('static/images/index/iOSFoundatioProgramAdvanced.png', 'iOSFoundation - Advanced', 'left=200,top=100,width=700,height=600')">iOSFoundation Program Advanced</span>
+                                    </div>
+                                </div>
+                                <div class="col s12 l12">
+                                    <span class="cv-subtitle light-green-text text-darken-3">Udemy </span>
+                                    <span class="new badge light-green" data-badge-caption="2020"></span>
+                                    <div class="col s12 l12">
+                                        <span class="cv-list browser-default"><a class="black-text" href="static/images/index/Complete HTML5 & CSS3 Course Build Professional Websites 22 Luglio 2020 English.pdf" target="_blank">Complete HTML5 & CSS3 Course Build Professional Websites</a></span>
+                                    </div>
+                                </div>
+                                <div class="col s12 l12">
+                                    <span class="cv-subtitle light-green-text text-darken-3">Università degli Studi del Sannio </span><span class="cv-spctext grey-text">Benevento, BN, Italy</span>
+                                    <span class="new badge light-green" data-badge-caption="2018"></span>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle" style="cursor: pointer" onclick="window.open('static/images/index/iOSFoundationProgramBasic.png', 'iOSFoundation - Basic', 'left=200,top=100,width=700,height=600')">iOSFoundation Program Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="project" class="row scrollspy">
+                            <div class="cv-title text-right col s12 l3">Projects</div>
+                            <div class="text-left col s12 l9">
+                                <div class="col s12 l12">
+                                    <span class="cv-subtitle light-green-text text-darken-3">Android Application</span>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle">Youtube Song Review</span>
+                                        <div class="col s12 l12">
+                                            <ul class="cv-list browser-default">
+                                                <li>
+                                                    Youtube Song Review is an application that allows you to add a review of a song or comment on an existing review.
+                                                    In order to perform these operations, the user must be registered.
+                                                    It is possible to log in as a guest, but this authentication will be limited to reading reviews and comments
+                                                </li>
+                                                <li class="blue-text" style="cursor: pointer">Video</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle">Repetitions</span>
+                                    </div>
+                                    <div class="col s12 l12">
+                                        <ul class="cv-list browser-default">
+                                            <li>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="cv-backtotop" class="fixed-action-btn hide">
+                <a href="#fullname" class="btn-floating btn-large deep-orange hoverable"><i class="material-icons">navigation</i></a>
+                <ul></ul>
+            </div>
+        </main>
+
+
+        <!-- for printing -->
+        <!--<main class="cv-printable">
+            <div class="cv-wrapper container">
+                <div class="center">
+                    <div id="fullname" class="row scrollspy">
+                        <div class="cv-header">
+                            <div class="col s3 l3">
+                                <div class="cv-photowrapper white">
+                                    <img src="https://res.cloudinary.com/jkris/image/upload/v1482046789/personal/jcfpic_rphghz.jpg" alt="jkrisc" class="responsive-img" />
+                                </div>
+                            </div>
+                            <div class="col s9 l9 cv-pinfogroup">
+                                <div><span class="card-title cv-fullname cv-title">Janiel Kris B. Custodio</span></div>
+                                <div class="cv-personalinfo">
+                                    <div class="grey-text text-darken-2 col s12 l12"><i class="material-icons tiny yellow-text text-darken-4">work</i> SOFTWARE ENGINEER, 27 yrs old</div>
+                                    <div class="grey-text text-darken-2 col s12 l12"><i class="material-icons tiny pink-text">location_on</i> Abu Dhabi, UAE</div>
+                                    <div class="grey-text text-darken-2 col s12 l12"><i class="material-icons tiny indigo-text">stay_primary_portrait</i> +971 50 818 8589</div>
+                                    <div class="grey-text text-darken-2 col s12 l12"><i class="material-icons tiny green-text">email</i> jkristuvwxyz@gmail.com</div>
+
+                                    <div class="grey-text text-darken-2 col s12 l12">
+                                        View CV Online through this link: <a href="https://codepen.io/jkris/full/WoLJxq/">https://codepen.io/jkris/full/WoLJxq/</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider grey"></div>
+                    <div class="card-content cv-body white center">
+                        <div id="objective" class="row scrollspy">
+                            <div class="cv-title text-right col s3 l3">Career Objective</div>
+                            <div class="text-left col s9 l9">
+                                <div class="col s12 l12 cv-co">
+                                    To further my knowledge on software and web application development techniques and life cycles, be able to contribute and work on a meaningful and purposeful project, and be a part of a productive team with similar aspirations.
+                                </div>
+                            </div>
+                        </div>
+                        <div id="skill" class="row scrollspy">
+                            <div class="cv-title text-right col s3 l3">Technical Skills</div>
+                            <div class="text-left col s9 l9">
+                                <div class="col s12 l12">
+                                    <div class="cv-subtitle light-green-text text-darken-3">Programming Languages</div>
+                                    <div class="col s6 l6">
+                                        <span class="cv-listtitle">Web</span>
+                                        <ul class="cv-list browser-default">
+                                            <li>Angular 8+ <span class="cv-spctext grey-text">Framework</span></li>
+                                            <li>Angular Material <span class="cv-spctext grey-text">Framework</span></li>
+                                            <li>Typescript & Javascript</li>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col s6 l6">
+                                        <span class="cv-listtitle">Other</span>
+                                        <ul class="cv-list browser-default">
+                                            <li>C#.Net</li>
+                                            <li>.Net Core</li>
+                                            <li>Entity Framework Core</li>
+                                            <li>Entity Framework 6.0</li>
+                                        </ul>
+                                        <span class="cv-listtitle">Database</span>
+                                        <ul class="cv-list browser-default">
+                                            <li>MS SQL Server / T-SQL</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col s12 l12">
+                                    <div class="cv-subtitle light-green-text text-darken-3">Other Software</div>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle">Multimedia</span>
+                                        <ul class="cv-list browser-default">
+                                            <li>Inkscape</li>
+                                            <li>Adobe Illustrator</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="experience" class="row scrollspy">
+                            <div class="cv-title text-right col s3 l3">Experience</div>
+                            <div class="text-left col s9 l9">
+                                <div class="col s12 l12">
+                                    <div>
+                                        <span class="cv-subtitle light-green-text text-darken-3">Software Developer</span>
+                                        <span class="new badge light-green" data-badge-caption="March 2016 - Present"></span>
+                                    </div>
+                                    <div class="cv-sub grey-text">
+                                        Injaz National General Enterprises L.L.C., Abu Dhabi, UAE
+                                    </div>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle">Modular Platform for Integrated Systems</span>
+                                        <ul class="cv-list browser-default">
+                                            <li>
+                                                Coordinated with the project engineer/head of innovation to come up with a plan to develop a modular system consisting of the following: <ol>
+                                                    <li>
+                                                        <b>Access Control System</b> - The system is supposed to interact with ANPR cameras. The system is currently accepting plate numbers as text input and process them for the gate barriers to repond to various scenarios through web relays.
+                                                    </li>
+                                                    <li>
+                                                        <b>Vehicle Counting System</b> - A background service is running to read outputs from web relays connected to loop detectors which then updates the count in the database. The backend service is also reponsible of updating the information displayed on the VMS.
+                                                    </li>
+                                                    <li>
+                                                        <b>Asset and Warehouse Management System</b> - A simple asset management system which will handle the warehouse for the assets deployed in implementation of the systems handled by the platform. Utilizes QR code as tags and scanning can be done from mobile phones.
+                                                    </li>
+                                                </ol>
+                                            </li>
+                                        </ul>
+                                        <span class="cv-listtitle">VMS Interactive Android App (demo)</span>
+                                        <ul class="cv-list browser-default">
+                                            <li>Coordinated with the project engineers and came up with a plan to develop an android app with an interface to send http requests to the back-end server, then the server sends a command to the VMS based on the request and responds with success or error.</li>
+                                        </ul>
+                                        <span class="cv-listtitle">Issues Maintenance Management System</span>
+                                        <ul class="cv-list browser-default">
+                                            <li>Coordinated with the project engineers and came up with a plan to develop a system for managing issues of a Parking Management Installation Project.</li>
+                                            <li>Designed and developed a system which allows the registered user to <b>1.</b> Manage issue maintenance records. <b>2.</b> Assign issues as tasks, and confirm rectified issues. <b>3.</b> Generate Reports.</li>
+                                        </ul>
+                                        <span class="cv-listtitle">Web Application for Creating Daily Job Records</span>
+                                        <ul class="cv-list browser-default">
+                                            <li>Coordinated and gathered requirements and information about a Road Marking Company's current daily-job-record-managing operation and planned on developing a system for managing projects and storing daily job records which provides an easy way to generate monthly or weekly reports.</li>
+                                            <li>Designed and developed a web application, deployed on the intranet, which allows <b>1.</b> The administrators to manage users, create and manage projects, view created daily job records and generate reports. <b>2.</b> The foremen to create their daily job record.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col s12 l12">
+                                    <div>
+                                        <span class="cv-subtitle light-green-text text-darken-3">IT Specialist</span>
+                                        <span class="new badge light-green" data-badge-caption="2012 - 2013"></span>
+                                    </div>
+                                    <div class="cv-sub grey-text">
+                                        Forecasting and Planning Technologies Inc., Philippines
+                                    </div>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle">Real Estate Selling System</span>
+                                        <ul class="cv-list browser-default">
+                                            <li>Worked with a team consisting of a Lead Programmer, Programmer (IT Specialist) and an Analyst in developing new modules and customizing existing modules designed and specified by the Project Manager and the Analyst.</li>
+                                            <li>Developed and customized existing modules and created new reports following the specifications of the Analyst.</li>
+                                            <li>Coordinated with the Lead Programmer in making a script for migrating and reformatting thousands of records from the client's old database to the new database.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="education" class="row scrollspy">
+                            <div class="cv-title text-right col s3 l3">Education</div>
+                            <div class="text-left col s9 l9">
+                                <div class="col s12 l12">
+                                    <span class="cv-subtitle light-green-text text-darken-3">STI College Fairview </span><span class="cv-spctext grey-text">Philippines</span>
+                                    <span class="new badge light-green" data-badge-caption="2008 - 2012"></span>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle">Bachelor of Science in Computer Science</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="honoraward" class="row scrollspy">
+                            <div class="cv-title text-right col s3 l3">Honors/Awards</div>
+                            <div class="text-left col s9 l9">
+                                <div class="col s12 l12">
+                                    <span class="cv-subtitle light-green-text text-darken-3">Academic</span>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle">Consistent Dean's Lister for 6 semesters.</span>
+                                        <ul></ul>
+                                    </div>
+                                </div>
+                                <div class="col s12 l12">
+                                    <span class="cv-subtitle light-green-text text-darken-3">National Collegiate Competition</span>
+                                    <div class="col s12 l12">
+                                        <span class="cv-listtitle">Won as 2<sup>nd</sup> runner-up in Into Programming Senior Division in STI Tagisan ng Talino-Nationals Finals.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="cv-backtotop" class="fixed-action-btn hide">
+                <a href="#fullname" class="btn-floating btn-large deep-orange hoverable"><i class="material-icons">navigation</i></a>
+                <ul></ul>
+            </div>
+        </main>-->
+        <footer>
+        </footer>
+    </body>
+</html>
